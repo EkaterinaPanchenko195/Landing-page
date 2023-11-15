@@ -1,0 +1,17 @@
+{
+  "name": "course-work",
+  "version": "1.0.0",
+  "description": "site chobani",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Panchenko Ekaterina",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.1",
+    "parcel": "^2.10.1",
+    "sass": "^1.69.5"
+  }
+}
