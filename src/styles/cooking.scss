@@ -18,8 +18,7 @@
 }
 
 .cooking-title {
-  display: flex;
-  justify-content: space-between;
+  @include flex-beetwen;
   margin: auto;
   text-align: end;
   width: 95%;
@@ -34,9 +33,7 @@
 
   &_img {
     background-image: url(../../images/jug.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background-center;
     height: 140px;
     width: 170px;
   }
@@ -68,9 +65,7 @@
   width: 95%;
 
   &__background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background-center;
     border-radius: 5px 5px 0 0;
     height: 421px;
 

@@ -8,8 +8,7 @@
 .news-slider {
   align-items: flex-start;
   column-gap: 10px;
-  display: flex;
-  justify-content: center;
+  @include flex-center;
 }
 
 .news-container {
@@ -43,9 +42,7 @@
 
   &__background {
     background-image: url(../../images/news_01.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background-center;
     height: 200px;
     min-width: 200px;
 

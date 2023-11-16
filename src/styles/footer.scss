@@ -76,31 +76,31 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
   margin-bottom: 40px;
-}
 
-.nav-link {
-  color: $white;
-  font-family: Chobani-Sans-Regular;
-  font-size: 14px;
-  text-decoration: none;
+  &__link {
+    color: $white;
+    font-family: Chobani-Sans-Regular;
+    font-size: 14px;
+    text-decoration: none;
 
-  &_a {
-    grid-area: a;
-  }
-  &_b {
-    grid-area: b;
-  }
-  &_c {
-    grid-area: c;
-  }
-  &_d {
-    grid-area: d;
-  }
-  &_e {
-    grid-area: e;
-  }
-  &_f {
-    grid-area: f;
+    &_a {
+      grid-area: a;
+    }
+    &_b {
+      grid-area: b;
+    }
+    &_c {
+      grid-area: c;
+    }
+    &_d {
+      grid-area: d;
+    }
+    &_e {
+      grid-area: e;
+    }
+    &_f {
+      grid-area: f;
+    }
   }
 }
 

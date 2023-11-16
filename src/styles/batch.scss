@@ -1,10 +1,7 @@
 .batch {
   background-image: url(../../images/batch_background-small.webp);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
+  @include background-bottom;
+  @include flex-center;
   height: 100vh;
   width: 100%;
 }

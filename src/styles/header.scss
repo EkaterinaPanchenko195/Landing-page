@@ -1,7 +1,6 @@
 .header {
   background-color: $white;
-  display: flex;
-  justify-content: space-between;
+  @include flex-beetwen;
   padding: 18px 30px 15px 30px;
   position: fixed;
   width: 100%;
@@ -23,8 +22,7 @@
 
 .header-nav {
   align-items: center;
-  display: flex;
-  justify-content: space-between;
+  @include flex-beetwen;
   width: 100%;
 }
 
