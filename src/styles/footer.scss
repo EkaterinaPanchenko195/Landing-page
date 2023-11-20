@@ -22,9 +22,19 @@
     background-color: transparent;
     border: none;
     border-bottom: 1px solid $yellow;
+    color: $yellow;
     margin-bottom: 20px;
+    outline: none;
     padding-bottom: 5px;
     width: 205px;
+
+    &:focus {
+      border-bottom-width: 2px;
+
+      & + .footer-sub__label {
+        border-bottom-width: 2px;
+      }
+    }
 
     &::placeholder {
       color: rgb(112, 129, 122);
@@ -47,7 +57,12 @@
   display: flex;
   margin-bottom: 40px;
 
+  &__input {
+    cursor: pointer;
+  }
+
   &__label {
+    cursor: pointer;
     font-family: Chobani-Sans-Regular;
     font-size: 13px;
     line-height: 14px;
@@ -109,6 +124,7 @@
   border: 1px solid $yellow;
   border-radius: 4px;
   color: $white;
+  cursor: pointer;
   font-family: Chobani-Sans-Regular;
   font-size: 16px;
   margin-bottom: 40px;
@@ -117,6 +133,10 @@
   padding: 13px 10px;
   padding-right: 0;
   -webkit-font-smoothing: antialiased;
+
+  &:focus {
+    border-width: 2px;
+  }
 }
 
 .footer-authorship {
